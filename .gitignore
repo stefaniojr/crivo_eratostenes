@@ -1,5 +1,2 @@
-*
-
-!.gitignore
-!.c
-!.h
+*.out
+*.gch
