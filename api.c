@@ -6,6 +6,7 @@ struct numero
 {
     int numero;
     int marcado;
+    //bool marcado;
 };
 
 struct cel

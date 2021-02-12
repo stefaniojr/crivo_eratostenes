@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+// #include <stdbool.h>
 
 typedef struct numero Numero;
 typedef struct listanumeros ListaNumeros;
@@ -17,4 +18,4 @@ void marcarMultiplos(ListaNumeros *lista);
 ListaNumeros *liberaLista(ListaNumeros *lista);
 void liberaNumero(Numero *numeroItem);
 
-#endif /* LISTA_H_ */
+#endif /* API_H_ */
