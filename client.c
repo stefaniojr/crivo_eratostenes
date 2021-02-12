@@ -1,20 +1,22 @@
 #include "api.h"
 
-int main (){
+int main()
+{
     int N;
 
     printf("Qual o maior numero?\n");
     scanf("%d", &N);
 
-    ListaNumeros* lista;
+    ListaNumeros *lista;
     lista = inicializaLista();
 
-    for (int i=N; i>=2; i--)
+    for (int i = N; i >= 2; i--)
         insereNumero(inicializaNumero(i, 0), lista);
-    
+
     marcarMultiplos(lista);
-    
-    imprime(lista);
+
+    //imprime(lista);
+    imprimePrimos(lista);
 
     lista = liberaLista(lista);
 
